@@ -1,0 +1,153 @@
+html {
+    background-color: whitesmoke ;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: seashell;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand a, .brand img{
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: dimgray;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: block;
+    text-decoration: none; 
+}
+
+nav a:hover{
+    color: seashell;
+    background-color: dimgray
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white
+}
+
+section {
+    padding: 5px;
+}
+
+.slider {
+    display: block;
+    padding: 5px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 70%;
+    padding: 0 20px;
+}
+
+aside{
+    width: 30%;
+    padding: 0 20px;
+    background-color: seashell;
+    border-left: 1px seashell;
+    border-radius: 5px;
+}
+
+.widget img{
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.widget h4{
+    text-align: center;
+}
+
+.widget{
+    margin-bottom: 50px;
+}
+
+.widget ul{
+    list-style: circle;
+    list-style-position: initial;
+    line-height: 150%;
+    padding: 0 0 0 15px;
+
+}
+
+#demand{
+    color: tomato
+}
+
+footer{
+    background-color: seashell;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px; 
+    text-align: center;
+    font-size: 75%;
+}
+a{    
+    text-decoration: none;}
+
+blockquote{
+    color: goldenrod
+}
+
+button{
+    padding: 5px 10px;
+    background-color: dimgray;
+    
+    border: 1px solid gray;
+    border-radius: 20%;
+}
+
+button h2{
+color:seashell;
+}
+
+a:visited, a {
+    text-decoration: none;
+  }
+
+h3 a,
+h4 a{
+    color: dimgray;
+    text-decoration: none;
+}
